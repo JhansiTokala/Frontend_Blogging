@@ -1,0 +1,29 @@
+.blog-details {
+  max-width: 900px;       /* wider container */
+  margin: auto;
+  padding: 20px;
+}
+
+.blog-image {
+  width: 100%;            /* make it stretch */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.blog-details h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.blog-category {
+  color: #ff6600;         /* orange category color */
+  font-size: 1.1rem;
+  margin: 5px 0 15px 0;
+}
+
+.blog-content {
+  font-size: 1.2rem;      /* bigger content text */
+  line-height: 1.8;
+  text-align: justify;    /* neat text alignment */
+}
